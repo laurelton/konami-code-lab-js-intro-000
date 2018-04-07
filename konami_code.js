@@ -17,6 +17,6 @@ function validateCode(event) {
     console.log('Konami Code!!!');
   }
 
-  index = key === code[index] ? index++ : 0;
+  index = key === code[index] ? ++index : 0;
   console.log(index, key);
 }

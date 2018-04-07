@@ -14,7 +14,7 @@ function validateCode(event) {
 
   const key = parseInt(event.which);
   if (index === code.length) {
-    console.log('Konami Code!!!');
+    // console.log('Konami Code!!!');
     alert('Konami Code Entered');
   }
 

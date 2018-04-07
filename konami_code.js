@@ -18,5 +18,5 @@ function validateCode(event) {
   }
 
   index = key === code[index] ? index++ : 0;
-  console.log(index);
+  console.log(index, key);
 }

@@ -12,7 +12,7 @@ function validateCode(event) {
   // console.log('Which    : ', event.which);
   // console.log('Location : ', event.location);
 
-  const key = event.which;
+  const key = parseInt(event.which);
   if (index === code.length) {
     console.log('Konami Code!!!');
   }

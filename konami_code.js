@@ -8,9 +8,9 @@ function init() {
 }
 
 function validateCode(event) {
-  console.log('Detail   : ', event.detail);
-  console.log('Which    : ', event.which);
-  console.log('Location : ', event.location);
+  // console.log('Detail   : ', event.detail);
+  // console.log('Which    : ', event.which);
+  // console.log('Location : ', event.location);
 
   const key = event.which;
   if (index === code.length) {
